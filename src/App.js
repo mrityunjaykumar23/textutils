@@ -46,7 +46,7 @@ function App() {
     <>
 {/* <Navbar title="my website" aboutText="mrityunjay"/> */}
   {/* <Router> */}
-// <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode}  />
+ <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode}  />
 <Alert alert={alert}/> 
 <div className="container"> 
 {/* <Textform heading="Enter the text to analyze"/> */}
