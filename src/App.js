@@ -45,23 +45,23 @@ function App() {
   return (
     <>
 {/* <Navbar title="my website" aboutText="mrityunjay"/> */}
-<Router>
-<Navbar title="TextUtils" mode={mode} toggleMode={toggleMode}  />
-<Alert alert={alert}/>
-<div className="container">
+  {/* <Router> */}
+// <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode}  />
+<Alert alert={alert}/> 
+<div className="container"> 
 {/* <Textform heading="Enter the text to analyze"/> */}
-{/* <Textform showAlert={showAlert} heading="Enter the text to analyze below" mode={mode}/> */}
-  <Routes>
+<Textform showAlert={showAlert} heading="Enter the text to analyze below" mode={mode}/>
+  {/* <Routes>
 <Route exact path="/"element={<Textform showAlert={showAlert} heading="Enter the text to analyze below" mode={mode}/>}/>
 <Route exact path="/About" element={<About/>}/>
-            {/* <About/>
-          </Route> */}
+            {/* <About/> */}
+          {/* </Route> */} 
             {/* <Textform showAlert={showAlert} heading="Enter the text to analyze below" mode={mode}/>
           </Route> */}
-          </Routes>
+          {/* </Routes> */}
 {/* <About/> */}
 </div>
-</Router>
+{/*  </Router> */}
     </>
   );
 }
