@@ -5,7 +5,7 @@ import About from './component/About';
 import Navbar from './component/Navbar';
 import Textform from './component/Textform';
 import React, { useState } from 'react';
-import {BrowserRouter as Router, Switch, Route, Link, Routes} from "react-router-dom";
+// import {BrowserRouter as Router, Switch, Route, Link, Routes} from "react-router-dom";
 
 // let name="mkp"
 function App() {
